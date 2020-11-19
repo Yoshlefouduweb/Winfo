@@ -1,0 +1,145 @@
+.header{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color :rgba(0,0, 0, 0);
+    position: fixed;
+    top: 0;
+    
+}
+
+.header a:hover{
+    color: #D980FA
+}
+
+.header .header-logo{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    float: left;
+    margin-left :30px;
+}
+
+.header .header-menu{
+    float: right;
+    margin-right: 30px;
+}
+
+.header .header-menu a{
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.header .header-menu a:hover{
+   color: #D980FA;
+}
+
+.banner{
+    margin-top: -25px;
+}
+
+
+.banner .banner-image{
+    position: relative;
+}
+
+
+.banner .banner-content{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%; 
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2{
+    color: #ffffff;
+}
+
+.banner .banner-content button{
+    background-color: #cd84f1;
+    color: white;
+    border: 0;
+}
+
+.colunns{
+    text-align: center;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-family: fantasy
+
+}
+
+.symbole{
+    font-size: xx-large;
+    text-align: center;
+    color: blueviolet;
+}
+
+.subtitle-symbole{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+}
+
+.lien-about-me a:hover{
+   color: #D980FA;
+   font-size: 25px;
+}
+
+.link-config{
+    position: absolute;
+    width: 100%;
+    margin-left: 70%;
+    top: 60%; 
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.emplacement{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 2%;
+}
+
+.formulaire{
+    width: 100%;
+    position: fixed;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+#send_email{
+    float: right;
+    color:#9980FA;
+    background-color: black;
+
+}
+
+.formulaire .input{
+    background-color: #DDDDDD;
+    color:#171717;
+    font-family: 'Cairo', sans-serif;
+    font-size: 29px;
+    border: 0;
+}
+
+.formulaire .field{
+    background-color: #F8F8F8;
+    border: 0;
+}
+.formulaire .textarea{
+    background-color: #DDDDDD;
+    color:#171717;
+    font-family: 'Cairo', sans-serif;
+    font-size: 29px;
+    border: 0;
+}
+
